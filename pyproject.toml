@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "eyrie"
+version = "1.0.0"
+description = "A Python framework reimagining NestJS with FastAPI, featuring modular and scalable architecture."
+authors = ["Retr0327 <retr0327.dev@gmail.com>"]
+license = {file = 'LICENSE'}
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
